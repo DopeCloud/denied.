@@ -29,6 +29,7 @@ route add -net 101.99.64.0/21 gw 127.0.0.1 lo
 
 #UK
 route add -net 95.149.0.0/16 gw 127.0.0.1 lo
+route add -net 191.101.180.0/24 gw 127.0.0.1 lo
 
 #US
 route add -net 50.93.176.0/20 gw 127.0.0.1 lo
