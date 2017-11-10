@@ -12,6 +12,9 @@ route add -net 	180.160.0.0/13 gw 127.0.0.1 lo
 #Croatia
 route add -net 5.188.10.0/24 gw 127.0.0.1 lo
 
+#Brazil 
+ip route add blackhole 200.97.243.137
+
 #india
 route add -net 52.160.0.0/11 gw 127.0.0.1 lo
 route add -net 59.90.208.0/20 gw 127.0.0.1 lo
