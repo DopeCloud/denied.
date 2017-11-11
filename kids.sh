@@ -19,7 +19,6 @@ route add -net 185.158.132.0/22 gw 127.0.0.1 lo
 route add -net 191.101.64.0/20  gw 127.0.0.1 lo
 route add -net 191.101.96.0/20  gw 127.0.0.1 lo
 route add -net 192.3.240.0/21   gw 127.0.0.1 lo
-route add -net 193.192.58.0/23  gw 127.0.0.1 lo
 route add -net 193.201.224.0/22 gw 127.0.0.1 lo
 route add -net 196.247.17.0/24  gw 127.0.0.1 lo
 route add -net 196.247.17.0/24  gw 127.0.0.1 lo
