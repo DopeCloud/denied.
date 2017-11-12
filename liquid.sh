@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# => https://ipinfo.io/AS32244
 route add -net 159.135.48.0/20  gw 127.0.0.1 lo
 route add -net 162.255.68.0/23  gw 127.0.0.1 lo
 route add -net 172.255.59.0/24  gw 127.0.0.1 lo
