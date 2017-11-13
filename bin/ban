@@ -2,7 +2,7 @@
 altibox(){
           echo "|========================================|"
           echo "|============ ALTIBOX.TXT ===============|"
-          filename='altibox.txt'
+          filename='/opt/denied/altibox.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -16,7 +16,7 @@ altibox(){
 avast(){
           echo "|========================================|"
           echo "|============= AVAST.TXT ================|"
-          filename='avast.txt'
+          filename='/opt/denied/avast.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -29,7 +29,7 @@ avast(){
 aws(){
           echo "|========================================|"
           echo "|=============== AWS.TXT ================|"
-          filename='aws.txt'
+          filename='/opt/denied/aws.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -42,7 +42,7 @@ aws(){
 colo(){
           echo "|========================================|"
           echo "|=========== COLOCROSSING.TXT ===========|"
-          filename='colocrossing.txt'
+          filename='/opt/denied/colocrossing.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -55,7 +55,7 @@ colo(){
 contabo(){
           echo "|========================================|"
           echo "|=========== CONTABO.TXT ================|"
-          filename='contabo.txt'
+          filename='/opt/denied/contabo.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -68,7 +68,7 @@ contabo(){
 datashack(){
           echo "|========================================|"
           echo "|=========== DATASHACK.TXT ==============|"
-          filename='datashack.txt'
+          filename='/opt/denied/datashack.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -81,7 +81,7 @@ datashack(){
 eonix(){
           echo "|========================================|"
           echo "|============= EONIX.TXT ================|"
-          filename='eonix.txt'
+          filename='/opt/denied/eonix.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -94,7 +94,7 @@ eonix(){
 ghost(){
           echo "|========================================|"
           echo "|============= GHOST.TXT ================|"
-          filename='ghost.txt'
+          filename='/opt/denied/ghost.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -107,7 +107,7 @@ ghost(){
 hosthatch(){
           echo "|========================================|"
           echo "|=========== HOSTHATCH.TXT ==============|"
-          filename='hosthatch.txt'
+          filename='/opt/denied/hosthatch.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -120,7 +120,7 @@ hosthatch(){
 kids(){
           echo "|========================================|"
           echo "|============== KIDS.TXT ================|"
-          filename='kids.txt'
+          filename='/opt/denied/kids.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -133,7 +133,7 @@ kids(){
 linode(){
           echo "|========================================|"
           echo "|============ LINODE.TXT ================|"
-          filename='linode.txt'
+          filename='/opt/denied/linode.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -146,7 +146,7 @@ linode(){
 liquid(){
           echo "|========================================|"
           echo "|============ LIQUID.TXT ================|"
-          filename='liquid.txt'
+          filename='/opt/denied/liquid.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -159,7 +159,7 @@ liquid(){
 myloc(){
           echo "|========================================|"
           echo "|============= MYLOC.TXT ================|"
-          filename='myloc.txt'
+          filename='/opt/denied/myloc.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -172,7 +172,7 @@ myloc(){
 nd(){
           echo "|========================================|"
           echo "|=============== ND.TXT =================|"
-          filename='nd.txt'
+          filename='/opt/denied/nd.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -185,7 +185,7 @@ nd(){
 net4(){
           echo "|========================================|"
           echo "|=============== NET4.TXT ===============|"
-          filename='net4.txt'
+          filename='/opt/denied/net4.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -198,7 +198,7 @@ net4(){
 online(){
           echo "|========================================|"
           echo "|============= ONLINE.TXT ===============|"
-          filename='online.txt'
+          filename='/opt/denied/online.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -211,7 +211,7 @@ online(){
 worldstream(){
           echo "|========================================|"
           echo "|========== WORLDSTREAM.TXT =============|"
-          filename='worldstream.txt'
+          filename='/opt/denied/worldstream.txt'
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
@@ -222,8 +222,6 @@ worldstream(){
 }
 
 dofresh(){
-          apt-get update; apt-get upgrade -y
-          apt-get install git -y
           cd /opt/; git clone https://github.com/DopeCloud/denied..git
           mv deni* denied
           clear
