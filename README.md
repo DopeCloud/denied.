@@ -19,3 +19,18 @@ To request a unban you can send a request to : `raw@dopehosting.net` ex
 [TITLE] - `UNBAN REQUEST.`
 
 [MESSAGE] *For single ip you can just tell us a simple reason.* ***For subnet/org You should provide the improvement of your service (network care)!***
+
+
+# Installation
+
+1. **`cd /bin/; wget https://raw.githubusercontent.com/DopeCloud/denied./master/bin/ban; chmod +x /bin/ban; cd ~/`**
+
+2. **`ban fresh`** *(Update and get ip list)*
+
+# Update
+
+1. **`ban fresh`** *(Update and get latest ip list)*
+
+# Usage
+
+1. **`ban em`** *(Ban iplists)*
