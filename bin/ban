@@ -233,6 +233,9 @@ dofresh(){
 }
 if [ "$1" == 'em' ]; then
        datashack; contabo; colo; aws; avast; altibox; eonix; ghost; hosthatch; kids; linode; liquid; myloc; nd; net4; online; worldstream;
+       echo -e "|=============================================|"
+       echo -e "| ALL FROM /opt/denied/*.txt HAS BEEN BANNED! |"
+       echo -e "|=============================================|"
 fi
 
 if [ "$1" == 'fresh' ]; then
