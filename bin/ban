@@ -6,7 +6,6 @@ altibox(){
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
-              echo $p
           done
           echo "|========================================|"
           echo "|========================================|"
@@ -20,7 +19,6 @@ facebook(){
           exec 4<$filename
           while read -u4 p ; do
               ip route add blackhole $p
-              echo $p
           done
           echo "|========================================|"
           echo "|========================================|"
