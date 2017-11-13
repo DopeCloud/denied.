@@ -1,0 +1,226 @@
+#!/bin/bash
+altibox(){
+          echo "|========================================|"
+          echo "|============ ALTIBOX.TXT ===============|"
+          filename='altibox.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+              echo $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+avast(){
+          echo "|========================================|"
+          echo "|============= AVAST.TXT ================|"
+          filename='avast.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+aws(){
+          echo "|========================================|"
+          echo "|=============== AWS.TXT ================|"
+          filename='aws.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+colo(){
+          echo "|========================================|"
+          echo "|=========== COLOCROSSING.TXT ===========|"
+          filename='colocrossing.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+contabo(){
+          echo "|========================================|"
+          echo "|=========== CONTABO.TXT ================|"
+          filename='contabo.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+datashack(){
+          echo "|========================================|"
+          echo "|=========== DATASHACK.TXT ==============|"
+          filename='datashack.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+eonix(){
+          echo "|========================================|"
+          echo "|============= EONIX.TXT ================|"
+          filename='eonix.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+ghost(){
+          echo "|========================================|"
+          echo "|============= GHOST.TXT ================|"
+          filename='ghost.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+hosthatch(){
+          echo "|========================================|"
+          echo "|=========== HOSTHATCH.TXT ==============|"
+          filename='hosthatch.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+kids(){
+          echo "|========================================|"
+          echo "|============== KIDS.TXT ================|"
+          filename='kids.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+linode(){
+          echo "|========================================|"
+          echo "|============ LINODE.TXT ================|"
+          filename='linode.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+liquid(){
+          echo "|========================================|"
+          echo "|============ LIQUID.TXT ================|"
+          filename='liquid.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+myloc(){
+          echo "|========================================|"
+          echo "|============= MYLOC.TXT ================|"
+          filename='myloc.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+nd(){
+          echo "|========================================|"
+          echo "|=============== ND.TXT =================|"
+          filename='nd.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+net4(){
+          echo "|========================================|"
+          echo "|=============== NET4.TXT ===============|"
+          filename='net4.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+online(){
+          echo "|========================================|"
+          echo "|============= ONLINE.TXT ===============|"
+          filename='online.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+worldstream(){
+          echo "|========================================|"
+          echo "|========== WORLDSTREAM.TXT =============|"
+          filename='worldstream.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
+if [ "$1" == 'em' ]; then
+       datashack; contabo; colo; aws; avast; altibox; eonix; ghost; hosthatch; kids; linode; liquid; myloc; nd; net4; online; worldstream;
+fi
