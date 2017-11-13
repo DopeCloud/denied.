@@ -221,6 +221,22 @@ worldstream(){
           echo "|////////////////////////////////////////|"
 }
 
+dofresh(){
+          apt-get update; apt-get upgrade -y
+          apt-get install git -y
+          cd /opt/; git clone https://github.com/DopeCloud/denied..git
+          mv deni* denied
+          clear
+          cd /bin/; rm -Rf /bin/ban
+          wget https://raw.githubusercontent.com/DopeCloud/denied./master/bin/ban
+          chmod +x /bin/ban
+          clear
+          echo "UPDATE DONE!"
+}
 if [ "$1" == 'em' ]; then
        datashack; contabo; colo; aws; avast; altibox; eonix; ghost; hosthatch; kids; linode; liquid; myloc; nd; net4; online; worldstream;
+fi
+
+if [ "$1" == 'fresh' ]; then
+       dofresh;
 fi
