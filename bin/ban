@@ -247,6 +247,7 @@ worldstream(){
 }
 
 dofresh(){
+          rm -Rf /opt/denied
           cd /opt/; git clone https://github.com/DopeCloud/denied..git
           mv deni* denied
           clear
