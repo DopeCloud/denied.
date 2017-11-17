@@ -12,9 +12,22 @@ altibox(){
           echo "|////////////////////////////////////////|"
 }
 
+bladeservers(){
+          echo "|========================================|"
+          echo "|========== BLADESERVERS.TXT ============|"
+          filename='/opt/denied/bladeservers.txt'
+          exec 4<$filename
+          while read -u4 p ; do
+              ip route add blackhole $p
+          done
+          echo "|========================================|"
+          echo "|========================================|"
+          echo "|////////////////////////////////////////|"
+}
+
 quadranet(){
           echo "|========================================|"
-          echo "|============ ALTIBOX.TXT ===============|"
+          echo "|============ QUADRANET.TXT =============|"
           filename='/opt/denied/quadranet.txt'
           exec 4<$filename
           while read -u4 p ; do
@@ -258,7 +271,7 @@ dofresh(){
           echo "UPDATE DONE!"
 }
 if [ "$1" == 'em' ]; then
-       facebook; quadranet; datashack; contabo; colo; aws; avast; altibox; eonix; ghost; hosthatch; kids; linode; liquid; myloc; nd; net4; online; worldstream;
+       facebook; quadranet; bladeservers; datashack; contabo; colo; aws; avast; altibox; eonix; ghost; hosthatch; kids; linode; liquid; myloc; nd; net4; online; worldstream;
        echo -e "|=============================================|"
        echo -e "| ALL FROM /opt/denied/*.txt HAS BEEN BANNED! |"
        echo -e "|=============================================|"
