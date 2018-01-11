@@ -34,3 +34,7 @@ To request a unban you can send a request to : `raw@dopehosting.net` ex
 # Usage
 
 1. **`ban em`** *(Ban iplists)*
+
+# Careful.
+I don't suggest using "ban em" cli. As it will ban all ip/ranges which you see here. Mean while someone who has nothing to do with this will not be able to reach you anymore.
+Reason is simple because all those come from one network provider, those network providers gave internet to local clients. so when you ban with subnet you may ban someone else not just attacker...
