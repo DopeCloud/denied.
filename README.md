@@ -1,0 +1,1 @@
+# nginx-bad-provider-block
